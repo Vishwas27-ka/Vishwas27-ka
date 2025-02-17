@@ -29,6 +29,7 @@ Adjust L and W (MOSFET channel dimensions) to achieve the desired current. The c
 ![Screenshot 2025-02-16 121422](https://github.com/user-attachments/assets/8dbd733e-f0a2-4165-8a8e-ebee3b28ace2)
 
 The figure shows the values obtained from DC analysis.
+
 ![Screenshot 2025-02-16 121045](https://github.com/user-attachments/assets/22bca609-a67e-4459-aa60-e584eb189442)
 
 
@@ -88,6 +89,7 @@ Id = 5.56 × 10^-5 A
 Adjust L and W for both MOSFETs to achieve the desired current. The dimensions are displayed in the figure.
 
 **DC Sweep Analysis:** Conduct this analysis to find Vin in the saturation range by selecting DC Sweep in the simulation command editor and running the simulation.
+
 ![image](https://github.com/user-attachments/assets/b26e13fb-57be-4522-8e21-9b4730448512)
 
 
@@ -110,6 +112,7 @@ Length and Width of the Channel of the two MOSFETS used to obtain the given Curr
 ![Screenshot 2025-02-16 121422](https://github.com/user-attachments/assets/fe699e4e-be59-4a89-a524-8d88a54555c4)
 
 The diagram below presents the results derived from the DC analysis.
+
 ![Screenshot 2025-02-16 125843](https://github.com/user-attachments/assets/dded314a-ede4-45dd-aa51-d8a5251a6ec2)
 
 
