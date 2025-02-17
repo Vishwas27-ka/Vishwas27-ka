@@ -2,6 +2,8 @@
 **Question:** Given that POWER, P=100µW, perform DC Analysis, Transient Analysis, and AC Analysis for the given circuit designs, and observe the effects of width adjustments for each MOSFET.
 
 ## Design-1:
+   ![Screenshot 2025-02-16 111936](https://github.com/user-attachments/assets/0b661ae7-5761-4b9b-bd75-93c0fc60eabb)
+
    **Aim:** Determine the DC operating point, calculate gain through transient analysis, and conduct AC analysis.
 
    **Components:** MOSFET, resistors, DC power supply.
