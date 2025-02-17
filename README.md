@@ -22,11 +22,15 @@ The drain current (Id) is calculated as:
 Id = 5.56 × 10^-5 A
 
 Adjust L and W (MOSFET channel dimensions) to achieve the desired current. The chosen dimensions are displayed in the figure.
+![Screenshot 2025-02-16 120802](https://github.com/user-attachments/assets/109d353f-a954-4e08-b8d1-603ea40ea67c)
 
 ### 1) DC Analysis:
 **Procedure:** Select the DC output print (DC op pnt) in the simulation command editor and run the simulation.
+![Screenshot 2025-02-16 121422](https://github.com/user-attachments/assets/8dbd733e-f0a2-4165-8a8e-ebee3b28ace2)
 
 The figure shows the values obtained from DC analysis.
+   ![Screenshot 2025-02-16 121045](https://github.com/user-attachments/assets/22bca609-a67e-4459-aa60-e584eb189442)
+
 
 ### 2) Transient Analysis:
 **Procedure:** Select transient analysis in the simulation command editor, set the stop time to 1ms, and run the simulation.
@@ -35,8 +39,11 @@ The graph illustrates the transient response.
 
 ### 3) AC Analysis:
 **Procedure:** Choose AC analysis in the simulation command editor, provide the specified values, and run the simulation.
+![Screenshot 2025-02-16 122038](https://github.com/user-attachments/assets/e43f0303-c135-4a82-bc71-12e6ae6000b9)
 
 The graph depicts the AC response.
+![Screenshot 2025-02-16 122339](https://github.com/user-attachments/assets/87da114b-e8f6-4981-823f-d8a504316454)
+
 
 ### Result (Design-1):
 1. **DC Analysis:**
@@ -59,6 +66,8 @@ The graph depicts the AC response.
 ---
 
 ## Design-2:
+![Screenshot 2025-02-16 124234](https://github.com/user-attachments/assets/59e297de-ed5d-426c-8e40-92aee8d3e793)
+
 **Aim:** Find the DC operating point, calculate gain using transient analysis, and perform AC analysis.
 
 **Components:** MOSFETs (M1 and M2), DC power supply.
@@ -79,8 +88,12 @@ Id = 5.56 × 10^-5 A
 Adjust L and W for both MOSFETs to achieve the desired current. The dimensions are displayed in the figure.
 
 **DC Sweep Analysis:** Conduct this analysis to find Vin in the saturation range by selecting DC Sweep in the simulation command editor and running the simulation.
+![image](https://github.com/user-attachments/assets/b26e13fb-57be-4522-8e21-9b4730448512)
+
 
 The VTC curve shows Vin at 0.8V in the saturation region.
+![Screenshot 2025-02-16 125157](https://github.com/user-attachments/assets/abddb50e-8287-42ad-9dcc-fc4e29b37ff7)
+
 
 ### 1) DC Analysis:
 **Procedure:** Select DC output print (DC op pnt) in the simulation command editor and run the simulation.
