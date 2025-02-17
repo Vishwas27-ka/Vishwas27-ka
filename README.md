@@ -29,7 +29,7 @@ Adjust L and W (MOSFET channel dimensions) to achieve the desired current. The c
 ![Screenshot 2025-02-16 121422](https://github.com/user-attachments/assets/8dbd733e-f0a2-4165-8a8e-ebee3b28ace2)
 
 The figure shows the values obtained from DC analysis.
-   ![Screenshot 2025-02-16 121045](https://github.com/user-attachments/assets/22bca609-a67e-4459-aa60-e584eb189442)
+![Screenshot 2025-02-16 121045](https://github.com/user-attachments/assets/22bca609-a67e-4459-aa60-e584eb189442)
 
 
 ### 2) Transient Analysis:
@@ -101,6 +101,7 @@ Then the input voltage parameters are given as.
 Length and Width of the Channel of the two MOSFETS used to obtain the given Current is shown in the figure below.
 
 ![Screenshot 2025-02-16 125820](https://github.com/user-attachments/assets/2197048a-07ff-4819-ae53-b6f496449d35)
+
 ![Screenshot 2025-02-16 125811](https://github.com/user-attachments/assets/a2eae298-1edc-49bc-a925-278ec1eee622)
 
 
@@ -114,7 +115,7 @@ The diagram below presents the results derived from the DC analysis.
 
 ### 2) Transient Analysis:
 **Procedure:** Select transient analysis, set stop time to 1ms, and run the simulation.
- ![Screenshot 2025-02-16 130048](https://github.com/user-attachments/assets/c3faea32-8fd7-4cdb-9d7b-0b454f8d626b)
+![Screenshot 2025-02-16 130048](https://github.com/user-attachments/assets/c3faea32-8fd7-4cdb-9d7b-0b454f8d626b)
 
 The below Graph presents the Transient Response for the Given Design.
 
